@@ -1,0 +1,30 @@
+{
+  "name": "vision-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "dev": "gulp watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "config": "^1.21.0",
+    "delivery": "0.0.4",
+    "lodash": "^4.15.0",
+    "socket.io-client": "^1.4.8"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-tslint": "~4.1.0",
+    "gulp-typescript": "~2.9.2",
+    "husky": "~0.10.2",
+    "merge2": "~0.3.6",
+    "mocha": "^2.3.4",
+    "tsd": "~0.6.5",
+    "tslint": "~3.2.0",
+    "typescript": "~2.0.0"
+  }
+}
